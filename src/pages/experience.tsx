@@ -223,7 +223,7 @@ export default function experience() {
 
                     <div className="relative flex w-240 min-h-[150px]">
                         <div className="flex-1 pl-36 pr-16 pt-8 pb-8 border-r-4 [border-image:linear-gradient(to_right,#758ecd,#A02C3D)_1]">
-                            <h2 className="text-2xl">May 2025 - Present</h2>
+                            <h2 className="text-2xl">August 2025 - Present</h2>
                             <p className="text-md">
                                 Promoted to Lab Instructor (Lead Instructional Assistant), instructing a lab section of 60+ students and
                                 mentoring 3 Instructional Assistants.

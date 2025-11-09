@@ -9,7 +9,8 @@ export default function contact() {
                 <title>Contact Me</title>
                 <meta name="description" content="Get in touch with me." />
             </Head>
-            <section id="links" className=" py-20">
+            <h1 className="flex items-center justify-center text-5xl pt-20" id="education">Contact</h1>
+            <section id="links" className="pb-20 pt-10">
                 <a  href="/Matthew Bachelder.pdf"
                     download
                     className="flex items-center justify-center">
