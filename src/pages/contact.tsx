@@ -6,11 +6,11 @@ export default function contact() {
     return (
         <>
             <Head>
-                <title>Contact Me</title>
+                <title>My Contact</title>
                 <meta name="description" content="Get in touch with me." />
             </Head>
-            <h1 className="flex items-center justify-center text-5xl pt-20" id="education">Contact</h1>
-            <section id="links" className="pb-20 pt-10">
+            <h1 className="flex items-center justify-center text-5xl pt-20" id="contact">Contact</h1>
+            <section id="resume" className="pb-20 pt-10">
                 <a  href="/Matthew Bachelder.pdf"
                     download
                     className="flex items-center justify-center">
