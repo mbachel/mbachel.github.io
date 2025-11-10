@@ -62,7 +62,7 @@ export default function Navbar() {
                                 idx !== 0 && "border-l",
                                 idx === 0 && "rounded-l-full",
                                 idx === links.length -1 && "rounded-r-full",
-                                pathname === href ? "font-bold flex items-center" : ""
+                                pathname === href ? "flex items-center" : ""
                             ].filter(Boolean).join(" ")}
                             id={pathname === href ? "active" : undefined}
                         >
