@@ -1,36 +1,117 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Website — Matthew Bachelder
 
-## Getting Started
+[![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)](./)
 
-First, run the development server:
+Personal portfolio website built with Next.js, TypeScript and Tailwind CSS. The site showcases projects, an experience/education timeline, and includes a static-friendly contact form.
 
-```bash
+## Table of Contents
+
+- [What this project does](#what-this-project-does)
+- [Why it's useful / Key features](#why-its-useful--key-features)
+- [Quickstart](#quickstart)
+- [Build & export (GitHub Pages)](#build--export-github-pages)
+- [Contact form & environment notes](#contact-form--environment-notes)
+- [Project structure](#project-structure)
+- [Where to get help](#where-to-get-help)
+- [Who maintains and how to contribute](#who-maintains-and-how-to-contribute)
+- [License](#license)
+
+## What this project does
+
+This repository contains the source for Matthew Bachelder's personal website. It is a modern, accessible portfolio built with Next.js and Tailwind CSS. The site includes:
+
+- A home/hero section with profile and animated background
+- Skills grid with client-side filtering and sorting
+- Experience/education timeline
+- A contact form that works from static hosting using Formspree
+
+## Why it's useful / Key features
+
+- Fast, accessible, and responsive UI using Next.js + Tailwind CSS
+- TypeScript throughout for safer development
+- Theme support (light/dark) driven by CSS variables and `next-themes`
+- Client-side enhancements (Isotope filtering, framer-motion transitions) while remaining exportable to static hosts
+
+## Quickstart
+
+Prerequisites
+
+- Node.js 18+ (or current LTS)
+- npm or yarn
+- Recommended: VS Code with Tailwind CSS IntelliSense
+
+Install dependencies
+
+```powershell
+# from repository root (PowerShell)
+npm install
+# or
+yarn
+```
+
+Run development server
+
+```powershell
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Build & export (GitHub Pages)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project can be statically exported using `next export` and hosted on GitHub Pages.
 
-## Learn More
+```powershell
+npm run build
+npm run export
+# The static site will be in the `out/` folder
+```
 
-To learn more about Next.js, take a look at the following resources:
+Notes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Static export disables server-only features like API routes and SSR. If you need serverless functions, use Vercel or Netlify instead.
+- For GitHub Pages deployment, consider using the `gh-pages` package and a script that publishes the `out/` folder.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contact form & environment notes
 
-## Deploy on Vercel
+- The included `ContactForm` component uses `@formspree/react` and is safe for static hosting; the Formspree form ID is public by design.
+- Never commit private keys or service account files. Keep secrets in environment variables on your CI provider or local machine.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Project structure (high level)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+src/
+	components/    # React components (Navbar, Hero, Projects, ContactForm, etc.)
+	pages/         # Next.js Pages router: pages and special files (_app.tsx, _document.tsx)
+	app/           # global CSS (globals.css)
+public/          # static assets
+```
+
+Key files
+
+- `src/pages/_app.tsx` — application wrapper (Providers, Navbar, Footer)
+- `src/pages/_document.tsx` — custom HTML document (font links, meta)
+- `src/components/ContactForm.tsx` — Formspree integration
+- `src/components/Hero.tsx` — Hero with animated background
+- `src/app/globals.css` — CSS variables and Tailwind directives
+
+## Where to get help
+
+- Issues and Pull Requests: use the repository's GitHub Issues and PRs
+- Next.js docs: https://nextjs.org/docs
+- Tailwind CSS docs: https://tailwindcss.com/docs
+- Formspree docs: https://formspree.io/docs
+
+## Who maintains and how to contribute
+
+Maintainer: Matthew Bachelder
+
+If you'd like to contribute, please open an issue to discuss planned changes. For small fixes, fork the repo, create a feature branch, and submit a pull request.
+
+## License
+
+This project references the repository `LICENSE` file for licensing details.
+
+---
