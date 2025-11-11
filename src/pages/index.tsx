@@ -12,6 +12,7 @@ import {
     RiGitRepositoryFill,
     RiInfoCardFill,
 } from "react-icons/ri";
+import { HiWrenchScrewdriver } from "react-icons/hi2";
 import { MdContactPage } from "react-icons/md";
 
 export default function HomePage() {
@@ -80,7 +81,7 @@ export default function HomePage() {
                         </p>
                     </div>
                 </div>
-                <div className="flex w-240 pt-20 pb-30">
+                <div className="flex w-240 pt-20">
                     <div className="flex flex-col items-start justify-start pt-10">
                         <h2 className="text-3xl flex items-center gap-4 pb-2">How About Matthew? <FaBatteryFull /></h2>
                         <p className="text-xl self-start text-start max-w-160">
@@ -95,6 +96,23 @@ export default function HomePage() {
                         href="/contact">
                             <MdContactPage size={240}/>
                     </Link>
+                </div>
+            </section>
+            <section id="improvements" className="text-2xl pt-20 pb-30">
+                <h2 className="flex items-center justify-center text-4xl font-bold pb-3"><HiWrenchScrewdriver />&nbsp;Plans for Improvement&nbsp;<HiWrenchScrewdriver /></h2>
+                <div className="flex items-center justify-center flex-col max-w-4xl mx-auto">
+                    <p className="">
+                        Just like myself, my website is constantly changing and improving.
+                        Here are my current plans for improvement and expansion (in no particular order):
+                    </p>
+                    <ul className="list-disc max-w-3xl">
+                        <li className="pt-2">Incorporate images throughout the website to improve visual appeal.</li>
+                        <li className="pt-2">Add animations and interactive elements to enhance engagement.</li>
+                        <li className="pt-2">Improve SEO, performance, and accessibility for better usability.</li>
+                        <li className="pt-2">Finish the projects page, with filtering and sorting capabilities.</li>
+                        <li className="pt-2">Implement specific project demos to showcase functionality.</li>
+                        <li className="pt-2">Optimize for all devices to ensure a seamless experience.</li>
+                    </ul>
                 </div>
             </section>
         </>
