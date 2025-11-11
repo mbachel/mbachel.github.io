@@ -1,5 +1,4 @@
 import Head from "next/head";
-import MiniHero from "@/components/MiniHero";
 
 export default function projects() {
     return (
@@ -8,10 +7,14 @@ export default function projects() {
                 <title>My Projects</title>
                 <meta name="description" content="Explore my projects and works." />
             </Head>
-            <MiniHero />
-            <div className="font-nunito text-center min-h-screen">
-                Projects Page works!
-            </div>
+            <section className="max-w-5xl mx-auto px-6">
+                <h1 className="flex items-center justify-center text-5xl pt-20" id="projects">Projects</h1>
+                <div id="wip" className="flex items-center justify-center flex-col text-2xl pt-10 pb-30 max-w-lg mx-auto">
+                    <p className="text-center">This page is a work in progress. <br />Please check back later for updates!</p>
+                    <br />
+                    <p className="text-center">In the meantime, please explore the other pages, or check out my GitHub!</p>
+                </div>
+            </section>
         </>
     );
 } 
