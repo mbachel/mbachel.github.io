@@ -1,117 +1,31 @@
-# Personal Website — Matthew Bachelder
+# Hi 👋, I'm Matthew Bachelder
 
-[![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)](./)
+### A Senior at UNC Charlotte studying Computer Science
 
-Personal portfolio website built with Next.js, TypeScript and Tailwind CSS. The site showcases projects, an experience/education timeline, and includes a static-friendly contact form.
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=mbachel" alt="mbachel" /></a> </p>
 
-## Table of Contents
+- 🔭 I'm currently working on **My personal website & portfolio, and a full-stack project about recent innovations in Generative AI**
 
-- [What this project does](#what-this-project-does)
-- [Why it's useful / Key features](#why-its-useful--key-features)
-- [Quickstart](#quickstart)
-- [Build & export (GitHub Pages)](#build--export-github-pages)
-- [Contact form & environment notes](#contact-form--environment-notes)
-- [Project structure](#project-structure)
-- [Where to get help](#where-to-get-help)
-- [Who maintains and how to contribute](#who-maintains-and-how-to-contribute)
-- [License](#license)
+- 🌱 I'm currently learning **Typescript, React, MongoDB, Arduino**
 
-## What this project does
+- 👯 I'm looking to collaborate on **AI-based projects**
 
-This repository contains the source for Matthew Bachelder's personal website. It is a modern, accessible portfolio built with Next.js and Tailwind CSS. The site includes:
+- 🤝 I'm looking for help with **learning best security practices**
 
-- A home/hero section with profile and animated background
-- Skills grid with client-side filtering and sorting
-- Experience/education timeline
-- A contact form that works from static hosting using Formspree
+- 📫 How to reach me **matthew@bachelder.me**
 
-## Why it's useful / Key features
+- ⚡ Fun fact **I've traveled to many national & state parks, as well as sailed off the coast of the Florida Keys, canoed in the Quetico, and seen a Formula 1 race in Austin, Texas!**
 
-- Fast, accessible, and responsive UI using Next.js + Tailwind CSS
-- TypeScript throughout for safer development
-- Theme support (light/dark) driven by CSS variables and `next-themes`
-- Client-side enhancements (Isotope filtering, framer-motion transitions) while remaining exportable to static hosts
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://github.com/mbachel" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="mbachel" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/matthewbachelder" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="matthewbachelder" height="30" width="40" /></a>
+<a href="https://instagram.com/matty.c.b02" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="matty.c.b02" height="30" width="40" /></a>
+</p>
 
-## Quickstart
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://developer.mozilla.org/en-US/docs/Web/angular" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=angular" alt="angular" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/arduino" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=arduino" alt="arduino" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/chartjs" target="_blank" rel="noreferrer"> <img src="https://cdn.simpleicons.org/chartdotjs/FF6384" alt="chartjs" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/css3" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=css" alt="css3" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/d3js" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=d3" alt="d3js" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/docker" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=docker" alt="docker" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/express" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=express" alt="express" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/fastapi" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=fastapi" alt="fastapi" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/git" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=git" alt="git" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/html5" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=html" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/java" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=java" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/javascript" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=js" alt="javascript" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/mongodb" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=mongodb" alt="mongodb" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/mysql" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=mysql" alt="mysql" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/nextjs" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=nextjs" alt="nextjs" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/nginx" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=nginx" alt="nginx" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/nodejs" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=nodejs" alt="nodejs" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/postman" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=postman" alt="postman" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/python" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=py" alt="python" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/react" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=react" alt="react" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/tailwind" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=tailwind" alt="tailwind" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/typescript" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=ts" alt="typescript" width="40" height="40"/> </a></p>
 
-Prerequisites
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=mbachel&show_icons=true&locale=en&layout=compact" alt="mbachel" /></p>
 
-- Node.js 18+ (or current LTS)
-- npm or yarn
-- Recommended: VS Code with Tailwind CSS IntelliSense
-
-Install dependencies
-
-```powershell
-# from repository root (PowerShell)
-npm install
-# or
-yarn
-```
-
-Run development server
-
-```powershell
-npm run dev
-# or
-yarn dev
-```
-
-Open http://localhost:3000 in your browser.
-
-## Build & export (GitHub Pages)
-
-This project can be statically exported using `next export` and hosted on GitHub Pages.
-
-```powershell
-npm run build
-npm run export
-# The static site will be in the `out/` folder
-```
-
-Notes
-
-- Static export disables server-only features like API routes and SSR. If you need serverless functions, use Vercel or Netlify instead.
-- For GitHub Pages deployment, consider using the `gh-pages` package and a script that publishes the `out/` folder.
-
-## Contact form & environment notes
-
-- The included `ContactForm` component uses `@formspree/react` and is safe for static hosting; the Formspree form ID is public by design.
-- Never commit private keys or service account files. Keep secrets in environment variables on your CI provider or local machine.
-
-## Project structure (high level)
-
-```
-src/
-	components/    # React components (Navbar, Hero, Projects, ContactForm, etc.)
-	pages/         # Next.js Pages router: pages and special files (_app.tsx, _document.tsx)
-	app/           # global CSS (globals.css)
-public/          # static assets
-```
-
-Key files
-
-- `src/pages/_app.tsx` — application wrapper (Providers, Navbar, Footer)
-- `src/pages/_document.tsx` — custom HTML document (font links, meta)
-- `src/components/ContactForm.tsx` — Formspree integration
-- `src/components/Hero.tsx` — Hero with animated background
-- `src/app/globals.css` — CSS variables and Tailwind directives
-
-## Where to get help
-
-- Issues and Pull Requests: use the repository's GitHub Issues and PRs
-- Next.js docs: https://nextjs.org/docs
-- Tailwind CSS docs: https://tailwindcss.com/docs
-- Formspree docs: https://formspree.io/docs
-
-## Who maintains and how to contribute
-
-Maintainer: Matthew Bachelder
-
-If you'd like to contribute, please open an issue to discuss planned changes. For small fixes, fork the repo, create a feature branch, and submit a pull request.
-
-## License
-
-This project references the repository `LICENSE` file for licensing details.
-
----
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=mbachel&show_icons=true&locale=en" alt="mbachel" /></p>
