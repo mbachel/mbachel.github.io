@@ -31,8 +31,8 @@ export default function contact() {
                     </p>
                     <p className="text-xl text-center max-w-160 mx-auto pt-5">
                         If you want to send me an email directly, you can reach me at:<br />
-                        <a href="mailto:matthew.c.bachelder@gmail.com" className="text-blue-500 underline ml-1">
-                            matthew.c.bachelder@gmail.com
+                        <a href="mailto:matthew@bachelder.me" className="text-blue-500 underline ml-1">
+                            matthew@bachelder.me
                         </a>
                     </p>
                 </div>
