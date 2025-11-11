@@ -6,7 +6,6 @@ import {
     FaBatteryThreeQuarters,
     FaBatteryFull,
     FaGraduationCap,
-    FaFileDownload,
 } from "react-icons/fa";
 import {
     RiGitRepositoryFill,
@@ -14,6 +13,7 @@ import {
 } from "react-icons/ri";
 import { HiWrenchScrewdriver } from "react-icons/hi2";
 import { MdContactPage } from "react-icons/md";
+import Resume from "@/components/Resume";
 
 export default function HomePage() {
     return (
@@ -22,14 +22,7 @@ export default function HomePage() {
                 <title>Home Page</title>
                 <meta name="description" content="Welcome to my personal website!" />
             </Head>
-            <a  href="/Matthew Bachelder.pdf"
-                download
-                className="flex items-center justify-center">
-                    <p className="flex items-center justify-center text-2xl mt-12 w-70 h-20 rounded-lg" 
-                    id="download-resume">
-                        Download Resume <FaFileDownload className="ml-3"/>
-                    </p>
-            </a>
+            <Resume />
             <section className="font-nunito min-h-screen flex flex-col items-center justify-center px-20">
                 <div className="flex w-240">
                     <Link 
