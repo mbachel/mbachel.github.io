@@ -29,3 +29,6 @@
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=mbachel&show_icons=true&locale=en&layout=compact" alt="mbachel" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=mbachel&show_icons=true&locale=en" alt="mbachel" /></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=mbachel&" alt="mbachel" /></p>
+
