@@ -58,7 +58,7 @@ export default function Navbar() {
                             key={href}
                             href={href}
                             className={[
-                                "px-8 flex items-center h-full hover:bg-[var(--secondary-accent)]",
+                                "px-8 flex items-center h-full hover:bg-var(--secondary-accent)",
                                 idx !== 0 && "border-l",
                                 idx === 0 && "rounded-l-full",
                                 idx === links.length -1 && "rounded-r-full",

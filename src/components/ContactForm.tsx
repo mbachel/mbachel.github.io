@@ -26,8 +26,8 @@ export default function ContactForm() {
     }
     return (
         <div className="flex flex-col items-center justify-center w-full">
-            <form onSubmit={handleSubmit} className="flex flex-col items-center justify-evenly gap-4 rounded-lg w-[40rem] p-4 m-4">
-                <div className="flex flex-col w-[32rem] justify-between p-2">
+            <form onSubmit={handleSubmit} className="flex flex-col items-center justify-evenly gap-4 rounded-lg w-160 p-4 m-4">
+                <div className="flex flex-col w-lg justify-between p-2">
                     <label htmlFor="name" className="text-xl">
                         Name<span className="text-lg text-red-700">*</span>
                     </label>
@@ -46,7 +46,7 @@ export default function ContactForm() {
                         className="text-red-600 mt-1 text-base"
                     />
                 </div>
-                <div className="flex flex-col w-[32rem] justify-between p-2">
+                <div className="flex flex-col w-lg justify-between p-2">
                     <label htmlFor="email" className="text-xl">
                         Email<span className="text-lg text-red-700">*</span>
                     </label>
@@ -65,7 +65,7 @@ export default function ContactForm() {
                         className="text-red-600 mt-1 text-base"
                     />
                 </div>
-                <div className="flex flex-col p-2 w-[32rem] h-48">
+                <div className="flex flex-col p-2 w-lg h-48">
                     <label htmlFor="message" className="text-xl">
                         Message<span className="text-lg text-red-700">*</span>
                     </label>
@@ -85,7 +85,7 @@ export default function ContactForm() {
                 </div>
                 <button 
                     type="submit"
-                    className="w-[32rem] bg-[var(--tertiary-accent)] text-xl py-2 rounded-md hover:bg-[var(--secondary-accent)] hover:cursor-pointer disabled:bg-gray-400 disabled:cursor-not-allowed"
+                    className="w-lg bg-var(--tertiary-accent) text-xl py-2 rounded-md hover:bg-var(--secondary-accent) hover:cursor-pointer disabled:bg-gray-400 disabled:cursor-not-allowed"
                     disabled={state.submitting}
                 >
                     Send message

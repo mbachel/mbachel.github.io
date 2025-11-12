@@ -92,17 +92,17 @@ export default function Skills() {
     };
 
     return (
-        <div className="relative mx-auto h-[24rem] overflow-y-auto overflow-x-hidden">
-            <div className="sticky top-0 z-10 flex justify-center py-6 bg-[var(--primary-background)]">
+        <div className="relative mx-auto h-24rem overflow-y-auto overflow-x-hidden">
+            <div className="sticky top-0 z-10 flex justify-center py-6 bg-var(--primary-background)">
                 <div className="flex items-center h-10 text-lg border-2 rounded-full overflow-hidden shadow-md">
                     {filterButtons.map((button) => (
                         <button
                             key={button.filter}
                             onClick={handleFilterKeyChange(button.filter)}
-                            className={`px-5 h-full hover:bg-[var(--secondary-accent)] hover:cursor-pointer border-r last:border-r-0 ${
+                            className={`px-5 h-full hover:bg-var(--secondary-accent) hover:cursor-pointer border-r last:border-r-0 ${
                                 (filterKey === '*' && button.filter === '*') ||
                                 `.${filterKey}` === button.filter
-                                    ? 'font-bold bg-[var(--tertiary-accent)]'
+                                    ? 'font-bold bg-var(--tertiary-accent)'
                                     : ''
                             }`}
                         >
@@ -120,7 +120,7 @@ export default function Skills() {
                         key={skill.name}
                         className={`grid-item w-1/5 p-1 ${skill.category}`}
                     >
-                        <div className="p-2 text-center border rounded-md shadow-sm h-full flex items-center justify-center bg-[var(--secondary-background)]">
+                        <div className="p-2 text-center border rounded-md shadow-sm h-full flex items-center justify-center bg-var(--secondary-background)">
                             <p className="text-base">{skill.name}</p>
                         </div>
                     </div>

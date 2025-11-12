@@ -33,7 +33,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
                 : <MiniHero />
             }
 
-            <main className="m-auto w-full max-w-6xl bg-[var(--primary-background)] shadow-lg">
+            <main className="m-auto w-full max-w-6xl bg-var(--primary-background) shadow-lg">
               
                   <Component {...pageProps} />
             </main>
