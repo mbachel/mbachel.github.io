@@ -11,13 +11,13 @@ export default function About() {
                 <h1 className="flex items-center justify-center text-5xl pt-20" id="about">About</h1>
 
                 <div id="path" className="relative pt-8 pb-8 px-8 mb-12 text-left">
-                    <div className="absolute top-0 left-0 w-8 h-8 border-l-4 border-t-4 border-var(--primary-accent)"></div>
-                    <div className="absolute top-0 right-0 w-8 h-8 border-r-4 border-t-4 border-var(--primary-accent)"></div>
-                    <div className="absolute bottom-0 left-0 w-8 h-8 border-l-4 border-b-4 border-var(--primary-accent)"></div>
-                    <div className="absolute bottom-0 right-0 w-8 h-8 border-r-4 border-b-4 border-var(--primary-accent)"></div>
+                    <div className="absolute top-0 left-0 w-8 h-8 border-l-4 border-t-4 border-(--primary-accent)"></div>
+                    <div className="absolute top-0 right-0 w-8 h-8 border-r-4 border-t-4 border-(--primary-accent)"></div>
+                    <div className="absolute bottom-0 left-0 w-8 h-8 border-l-4 border-b-4 border-(--primary-accent)"></div>
+                    <div className="absolute bottom-0 right-0 w-8 h-8 border-r-4 border-b-4 border-(--primary-accent)"></div>
                     
                     <div className="flex items-baseline gap-4 mb-6">
-                        <span className="text-5xl font-bold text-var(--primary-accent)">01</span>
+                        <span className="text-5xl font-bold text-(--primary-accent)">01</span>
                         <h2 className="text-3xl">My Path to Tech</h2>
                     </div>
                     <p className="text-lg leading-relaxed mb-4">
@@ -31,13 +31,13 @@ export default function About() {
                 </div>
 
                 <div id="service" className="relative pt-8 pb-8 px-8 mb-12 text-left">
-                    <div className="absolute top-0 left-0 w-8 h-8 border-l-4 border-t-4 border-var(--primary-accent)"></div>
-                    <div className="absolute top-0 right-0 w-8 h-8 border-r-4 border-t-4 border-var(--primary-accent)"></div>
-                    <div className="absolute bottom-0 left-0 w-8 h-8 border-l-4 border-b-4 border-var(--primary-accent)"></div>
-                    <div className="absolute bottom-0 right-0 w-8 h-8 border-r-4 border-b-4 border-var(--primary-accent)"></div>
+                    <div className="absolute top-0 left-0 w-8 h-8 border-l-4 border-t-4 border-(--primary-accent)"></div>
+                    <div className="absolute top-0 right-0 w-8 h-8 border-r-4 border-t-4 border-(--primary-accent)"></div>
+                    <div className="absolute bottom-0 left-0 w-8 h-8 border-l-4 border-b-4 border-(--primary-accent)"></div>
+                    <div className="absolute bottom-0 right-0 w-8 h-8 border-r-4 border-b-4 border-(--primary-accent)"></div>
 
                     <div className="flex items-baseline gap-4 mb-6">
-                        <span className="text-5xl font-bold text-var(--secondary-accent)">02</span>
+                        <span className="text-5xl font-bold text-(--secondary-accent)">02</span>
                         <h2 className="text-3xl">Service and Leadership</h2>
                     </div>
                     <p className="text-lg leading-relaxed mb-4">
@@ -64,13 +64,13 @@ export default function About() {
                 </div>
 
                 <div id="accomplishments" className="relative pt-8 pb-8 px-8 mb-12 text-left">
-                    <div className="absolute top-0 left-0 w-8 h-8 border-l-4 border-t-4 border-var(--primary-accent)"></div>
-                    <div className="absolute top-0 right-0 w-8 h-8 border-r-4 border-t-4 border-var(--primary-accent)"></div>
-                    <div className="absolute bottom-0 left-0 w-8 h-8 border-l-4 border-b-4 border-var(--primary-accent)"></div>
-                    <div className="absolute bottom-0 right-0 w-8 h-8 border-r-4 border-b-4 border-var(--primary-accent)"></div>
+                    <div className="absolute top-0 left-0 w-8 h-8 border-l-4 border-t-4 border-(--primary-accent)"></div>
+                    <div className="absolute top-0 right-0 w-8 h-8 border-r-4 border-t-4 border-(--primary-accent)"></div>
+                    <div className="absolute bottom-0 left-0 w-8 h-8 border-l-4 border-b-4 border-(--primary-accent)"></div>
+                    <div className="absolute bottom-0 right-0 w-8 h-8 border-r-4 border-b-4 border-(--primary-accent)"></div>
 
                     <div className="flex items-baseline gap-4 mb-6">
-                        <span className="text-5xl font-bold text-var(--tertiary-accent)">03</span>
+                        <span className="text-5xl font-bold text-(--tertiary-accent)">03</span>
                         <h2 className="text-3xl">Accomplishments</h2>
                     </div>
                     <p className="text-lg leading-relaxed mb-4">
@@ -86,13 +86,13 @@ export default function About() {
                 </div>
 
                 <div id="off" className="relative pt-8 pb-8 px-8 text-left">
-                    <div className="absolute top-0 left-0 w-8 h-8 border-l-4 border-t-4 border-var(--primary-accent)"></div>
-                    <div className="absolute top-0 right-0 w-8 h-8 border-r-4 border-t-4 border-var(--primary-accent)"></div>
-                    <div className="absolute bottom-0 left-0 w-8 h-8 border-l-4 border-b-4 border-var(--primary-accent)"></div>
-                    <div className="absolute bottom-0 right-0 w-8 h-8 border-r-4 border-b-4 border-var(--primary-accent)"></div>
+                    <div className="absolute top-0 left-0 w-8 h-8 border-l-4 border-t-4 border-(--primary-accent)"></div>
+                    <div className="absolute top-0 right-0 w-8 h-8 border-r-4 border-t-4 border-(--primary-accent)"></div>
+                    <div className="absolute bottom-0 left-0 w-8 h-8 border-l-4 border-b-4 border-(--primary-accent)"></div>
+                    <div className="absolute bottom-0 right-0 w-8 h-8 border-r-4 border-b-4 border-(--primary-accent)"></div>
                     
                     <div className="flex items-baseline gap-4 mb-6">
-                        <span className="text-5xl font-bold text-var(--primary-accent)">04</span>
+                        <span className="text-5xl font-bold text-(--primary-accent)">04</span>
                         <h2 className="text-3xl">Off the Clock</h2>
                     </div>
                     <p className="text-lg leading-relaxed mb-4">
