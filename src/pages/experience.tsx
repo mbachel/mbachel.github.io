@@ -33,7 +33,7 @@ export default function experience() {
                             </ul>
                         </div>
                         <div className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-[47%] z-10">
-                            <Bs1CircleFill size={50} className="text-[#A02C3D] bg-var(--primary-background) rounded-full shadow" />
+                            <Bs1CircleFill size={50} className="text-[#A02C3D] bg-(--primary-background) rounded-full shadow" />
                         </div>
                     </div>
 
@@ -52,7 +52,7 @@ export default function experience() {
                             </ul>
                         </div>
                         <div className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-[47%] z-10">
-                            <Bs2CircleFill size={50} className="bg-var(--primary-background) text-[#758ecd] rounded-full shadow" />
+                            <Bs2CircleFill size={50} className="bg-(--primary-background) text-[#758ecd] rounded-full shadow" />
                         </div>
                     </div>
 
@@ -91,7 +91,7 @@ export default function experience() {
                             </ul>
                         </div>
                         <div className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-[47%] z-10">
-                            <Bs3CircleFill size={50} className="text-[#A02C3D] bg-var(--primary-background) rounded-full shadow" />
+                            <Bs3CircleFill size={50} className="text-[#A02C3D] bg-(--primary-background) rounded-full shadow" />
                         </div>
                     </div>
 
@@ -122,7 +122,7 @@ export default function experience() {
                             </ul>
                         </div>
                         <div className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-[47%] z-10">
-                            <Bs4CircleFill size={50} className="bg-var(--primary-background) text-[#758ecd] rounded-full shadow" />
+                            <Bs4CircleFill size={50} className="bg-(--primary-background) text-[#758ecd] rounded-full shadow" />
                         </div>
                     </div>
 
@@ -134,7 +134,7 @@ export default function experience() {
                             </p>
                         </div>
                         <div className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-[47%] z-10">
-                            <Bs5CircleFill size={50} className="text-[#A02C3D] bg-var(--primary-background) rounded-full shadow" />
+                            <Bs5CircleFill size={50} className="text-[#A02C3D] bg-(--primary-background) rounded-full shadow" />
                         </div>
                     </div>
                 </div>
@@ -162,7 +162,7 @@ export default function experience() {
                             </ul>
                         </div>
                         <div className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-[47%] z-10">
-                            <Bs1CircleFill size={50} className="text-[#A02C3D] bg-var(--primary-background) rounded-full shadow" />
+                            <Bs1CircleFill size={50} className="text-[#A02C3D] bg-(--primary-background) rounded-full shadow" />
                         </div>
                     </div>
 
@@ -180,7 +180,7 @@ export default function experience() {
                             </ul>
                         </div>
                         <div className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-[47%] z-10">
-                            <Bs2CircleFill size={50} className="bg-var(--primary-background) text-[#758ecd] rounded-full shadow" />
+                            <Bs2CircleFill size={50} className="bg-(--primary-background) text-[#758ecd] rounded-full shadow" />
                         </div>
                     </div>
 
@@ -198,7 +198,7 @@ export default function experience() {
                             </ul>
                         </div>
                         <div className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-[47%] z-10">
-                            <Bs3CircleFill size={50} className="text-[#A02C3D] bg-var(--primary-background) rounded-full shadow" />
+                            <Bs3CircleFill size={50} className="text-[#A02C3D] bg-(--primary-background) rounded-full shadow" />
                         </div>
                     </div>
 
@@ -217,7 +217,7 @@ export default function experience() {
                             </ul>
                         </div>
                         <div className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-[47%] z-10">
-                            <Bs4CircleFill size={50} className="bg-var(--primary-background) text-[#758ecd] rounded-full shadow" />
+                            <Bs4CircleFill size={50} className="bg-(--primary-background) text-[#758ecd] rounded-full shadow" />
                         </div>
                     </div>
 
@@ -236,7 +236,7 @@ export default function experience() {
                             </ul>
                         </div>
                         <div className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-[47%] z-10">
-                            <Bs5CircleFill size={50} className="text-[#A02C3D] bg-var(--primary-background) rounded-full shadow" />
+                            <Bs5CircleFill size={50} className="text-[#A02C3D] bg-(--primary-background) rounded-full shadow" />
                         </div>
                     </div>
                 </div>
