@@ -25,10 +25,10 @@ export default function ThemeSwitch() {
     );
 
     if (resolvedTheme === 'dark') {
-        return <FiSun size={45} className="flex items-center mx-6 hover:cursor-pointer hover:bg-var(--secondary-accent) rounded-full p-1" onClick={() => setTheme('light')} />;
+        return <FiSun size={45} className="flex items-center mx-6 hover:cursor-pointer hover:bg-(--secondary-accent) rounded-full p-1 transition" onClick={() => setTheme('light')} />;
     }
 
     if (resolvedTheme === 'light') {
-        return <FiMoon size={45} className="flex items-center mx-6 hover:cursor-pointer hover:bg-var(--secondary-accent) rounded-full p-1" onClick={() => setTheme('dark')} />;
+        return <FiMoon size={45} className="flex items-center mx-6 hover:cursor-pointer hover:bg-(--secondary-accent) rounded-full p-1 transition" onClick={() => setTheme('dark')} />;
     }
 }
