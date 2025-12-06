@@ -85,7 +85,7 @@ export default function ContactForm() {
                 </div>
                 <button 
                     type="submit"
-                    className="w-lg bg-var(--tertiary-accent) text-xl py-2 rounded-md hover:bg-var(--secondary-accent) hover:cursor-pointer disabled:bg-gray-400 disabled:cursor-not-allowed"
+                    className="w-lg bg-(--tertiary-accent) text-xl py-2 rounded-md hover:bg-(--secondary-accent) hover:cursor-pointer disabled:bg-gray-400 disabled:cursor-not-allowed"
                     disabled={state.submitting}
                 >
                     Send message
