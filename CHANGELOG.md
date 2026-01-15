@@ -33,3 +33,20 @@
     - Fixed some tailwind-css color issues from this change
 - Added color transitions to hover for: ThemeSwitch, Navbar, Resume, Skills, 404
 - Formatted 404 page properly
+
+### 12/06/25
+
+- Updated Next.js and React to patch vulnerability labeled as CVE-2025-55182
+- Updated my resume to match updates
+- Updated some CSS for the contact form
+
+### 01/14/26
+
+- Updated my resume to match updates
+- Updated package-lock for version changes
+
+### 01/15/26
+
+- Updated LICENSE to 2026
+- Updated Github prompts
+- Updated experience to reflect my GPA for the Fall 2025 semester
