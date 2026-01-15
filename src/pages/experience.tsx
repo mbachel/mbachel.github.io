@@ -29,7 +29,7 @@ export default function experience() {
                             <ul className="list-disc pl-5">
                                 <li>Courses: Calculus, Intro to Computer Science, Computers and their Impact on Society</li>
                                 <li>Skills: Python, Computing Basics, Solo & Group Presentations</li>
-                                <li>Achievements: Chancellor&apos;s List (&gt;3.8 GPA), Venturing Leadership Award</li>
+                                <li>Achievements: Chancellor&apos;s List (&gt;3.8+ GPA), Venturing Leadership Award</li>
                             </ul>
                         </div>
                         <div className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-[47%] z-10">
@@ -48,7 +48,7 @@ export default function experience() {
                                 <li>Courses: Data Structures and Algorithms, Logic and Algorithms, Elements of Statistics I, Database
                                     Design and Implementation, Human-Centered Computing</li>
                                 <li>Skills: Java, SQL, UI/UX Design, DSA, Usability Studies, Prototyping, Heuristic Evaluation</li>
-                                <li>Achievements: Chancellor&apos;s List (&gt;3.8 GPA)</li>
+                                <li>Achievements: Chancellor&apos;s List (&gt;3.8+ GPA)</li>
                             </ul>
                         </div>
                         <div className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-[47%] z-10">
@@ -87,7 +87,7 @@ export default function experience() {
                                             >J.A. Routh IT Portfolio
                                         </Link>
                                 </li>
-                                <li>Achievements: Chancellor&apos;s List (&gt;3.8 GPA), Wood Badge Owl, CompTIA Security Pro</li>
+                                <li>Achievements: Chancellor&apos;s List (&gt;3.8+ GPA), Wood Badge Owl, CompTIA Security Pro</li>
                             </ul>
                         </div>
                         <div className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-[47%] z-10">
@@ -100,7 +100,7 @@ export default function experience() {
                             <h2 className="text-2xl">August - December 2025</h2>
                             <p className="text-md">
                                 Promoted to Lab Instructor (Lead Instructional Assistant), instructing a lab section of 60+ students and
-                                mentoring 3 Instructional Assistants.
+                                mentoring 3 Instructional Assistants. 4.0 GPA
                             </p>
                             <ul className="list-disc pl-5">
                                 <li>Courses: Physical Computing (Graduate), Network-Based Application Development (Graduate), Info
@@ -118,7 +118,7 @@ export default function experience() {
                                         >Personal Portfolio Website
                                         </Link>
                                 </li>
-                                <li>Achievements: Early Entry Graduate Student</li>
+                                <li>Achievements: Early Entry Graduate Student, Chancellor&apos;s list (&gt;3.8+ GPA)</li>
                             </ul>
                         </div>
                         <div className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-[47%] z-10">
