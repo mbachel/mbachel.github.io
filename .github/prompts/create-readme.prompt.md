@@ -1,5 +1,5 @@
 ---
-mode: 'agent'
+agent: 'agent'
 description: 'Create a comprehensive README.md file for the project'
 ---
 

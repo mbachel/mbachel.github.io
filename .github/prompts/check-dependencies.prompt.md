@@ -1,5 +1,5 @@
 ---
-mode: 'agent'
+agent: 'agent'
 description: 'Check project dependencies for missing dependencies and version mismatches'
 ---
 
