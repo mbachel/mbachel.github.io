@@ -81,14 +81,14 @@ export default function Footer() {
             <section>
                 {resolvedTheme === "dark" ? (
                     <Image 
-                        src="/logo-dark.png"
+                        src="images/logo-dark.png"
                         alt="Logo"
                         width={120}
                         height={120}
                     />
                     ) : (
                     <Image 
-                        src="/logo-light.png"
+                        src="images/logo-light.png"
                         alt="Logo"
                         width={120}
                         height={120}

@@ -35,14 +35,14 @@ export default function Navbar() {
             <div className="flex items-center h-18 text-xl">
                 {resolvedTheme === "dark" ? (
                 <Image 
-                    src="/logo-dark.png"
+                    src="images/logo-dark.png"
                     alt="Logo"
                     width={118}
                     height={118}
                 />
                 ) : (
                 <Image 
-                    src="/logo-light.png"
+                    src="images/logo-light.png"
                     alt="Logo"
                     width={118}
                     height={118}

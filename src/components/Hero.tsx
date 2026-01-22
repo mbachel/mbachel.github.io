@@ -15,7 +15,7 @@ export default function Hero() {
                 <div className="z-10 ">
                     <div className="pb-4">
                         <Image 
-                            src="/me.png"
+                            src="images/me.png"
                             alt="Profile Picture" 
                             width={148} 
                             height={148} 

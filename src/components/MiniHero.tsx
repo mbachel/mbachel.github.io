@@ -13,7 +13,7 @@ export default function MiniHero() {
                 <div className="z-10 pointer-events-none">
                     <div className="pb-4 mb-2">
                         <Image 
-                            src="/me.png"
+                            src="images/me.png"
                             alt="Profile Picture" 
                             width={148} 
                             height={148} 
