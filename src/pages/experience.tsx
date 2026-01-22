@@ -71,7 +71,7 @@ export default function experience() {
                                 <li>
                                     Projects:&nbsp;
                                         <Link 
-                                            href="/projects#Restaurant"
+                                            href="/projects#projects"
                                             title="Restaurant Database API"
                                             rel="noopener noreferrer"
                                             target="_blank"
@@ -79,7 +79,7 @@ export default function experience() {
                                         >Restaurant Database API
                                         </Link>,&nbsp;
                                         <Link 
-                                            href="/projects#Routh"
+                                            href="/projects#projects"
                                             title="J.A. Routh IT Portfolio"
                                             rel="noopener noreferrer"
                                             target="_blank"
@@ -110,12 +110,20 @@ export default function experience() {
                                 <li>
                                     Projects:&nbsp;
                                         <Link 
-                                            href="/projects#Portfolio"
+                                            href="/projects#projects"
                                             title="Personal Portfolio Website"
                                             rel="noopener noreferrer"
                                             target="_blank"
                                             className="underline"
                                         >Personal Portfolio Website
+                                        </Link>,&nbsp;
+                                        <Link 
+                                            href="/projects#projects"
+                                            title="M62"
+                                            rel="noopener noreferrer"
+                                            target="_blank"
+                                            className="underline"
+                                        >M62
                                         </Link>
                                 </li>
                                 <li>Achievements: Early Entry Graduate Student, Chancellor&apos;s list (&gt;3.8+ GPA)</li>
@@ -125,13 +133,30 @@ export default function experience() {
                             <Bs4CircleFill size={50} className="bg-(--primary-background) text-[#758ecd] rounded-full shadow" />
                         </div>
                     </div>
-
                     <div className="relative flex w-240 min-h-[150px]">
                         <div className="flex-1 pl-36 pr-16 pt-8 pb-8 border-r-4 [border-image:linear-gradient(to_right,#758ecd,#A02C3D)_1]">
                             <h2 className="text-2xl">January - May 2026</h2>
                             <p className="text-md">
-                                Coming soon...
+                                Brought all concepts together during my final semester as an undergraduate at UNC Charlotte, 
+                                completing my capstone course, learning about IT project management and secure programming,  
+                                and graduating with my Bachelor of Arts in Computer Science.
                             </p>
+                            <ul className="list-disc pl-5">
+                                <li>Courses: IT Project Management (Graduate), Penetration Testing and Secure Programming (Graduate), Software Development Projects</li>
+                                <li>Skills: Docker, Docker Compose</li>
+                                {/* <li>
+                                    Projects:&nbsp;
+                                        <Link 
+                                            href="/projects#"
+                                            title=""
+                                            rel="noopener noreferrer"
+                                            target="_blank"
+                                            className="underline"
+                                        >
+                                        </Link>
+                                </li> */}
+                                <li>Achievements: Bachelor of Arts in Computer Science</li>
+                            </ul>
                         </div>
                         <div className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-[47%] z-10">
                             <Bs5CircleFill size={50} className="text-[#A02C3D] bg-(--primary-background) rounded-full shadow" />
