@@ -31,6 +31,18 @@ const projects = [
         techs: ["React Router", "NGINX", "FastAPI", "MongoDB", "Docker Compose"],
         description: "A full-stack GenAI web app. React Router/NGINX frontend, FastAPI/Uvicorn backend, and MongoDB. Fully containerized with Docker Compose.",
     },
+    {
+        name: "J.A. Routh IT Portfolio",
+        category: "web-dev",
+        startDate: "01/2025",
+        endDate: "05/2025",
+        image: "images/routh.png",
+        github: "https://github.com/mbachel/J.A.Routh.IT",
+        link: "https://webpages.charlotte.edu/mbacheld/Assignment4/index.html",
+        class: "ITIS 3135 - Web App Design",
+        techs: ["HTML5", "CSS3", "Isotope", "JQuery"],
+        description: "A small web app for fictitious IT consultant J.A. Routh. Features portfolio, services, and contact sections with Isotope filtering.",
+    },
 
     //Physical Projects
     { 
@@ -215,7 +227,7 @@ export default function Projects() {
                         data-start-date={project.startDate}
                         data-end-date={project.endDate}
                     >
-                        <div className="bg-white dark:bg-zinc-800 rounded-xl overflow-hidden shadow-md hover:shadow-xl hover:border-blue-500/30 border border-transparent dark:border-zinc-700 transition-all duration-300 flex flex-col h-full group">
+                        <div className="bg-white dark:bg-zinc-800 rounded-xl overflow-hidden shadow-md hover:shadow-xl border border-transparent dark:border-zinc-700 transition-all duration-300 flex flex-col h-full group">
                             {/* Image Container */}
                             <div className="relative h-48 w-full overflow-hidden bg-gray-100 dark:bg-zinc-900 border-b border-gray-100 dark:border-zinc-700">
                                 <Image 
@@ -231,10 +243,10 @@ export default function Projects() {
                             <div className="p-6 flex flex-col grow">
                                 <div className="flex justify-between items-start mb-3 gap-2">
                                     <div>
-                                        <h3 className="project-name text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                                        <h3 className="project-name text-xl font-bold text-gray-900 dark:text-white transition-colors">
                                             {project.name}
                                         </h3>
-                                        <div className="project-class text-xs font-semibold text-blue-600 dark:text-blue-400 mt-1">
+                                        <div className="project-class text-xs font-semibold mt-1">
                                             {project.class}
                                         </div>
                                     </div>
