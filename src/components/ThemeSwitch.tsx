@@ -9,7 +9,10 @@ export default function ThemeSwitch() {
     const [mounted, setMounted] = useState(false);
     const { setTheme, resolvedTheme } = useTheme();
 
-    useEffect(() => setMounted(true), []);
+    useEffect(() => {
+        // eslint-disable-next-line react-hooks/set-state-in-effect
+        setMounted(true)
+    }, []);
 
     if (!mounted) return (
         <Image 
