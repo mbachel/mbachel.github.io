@@ -47,7 +47,7 @@ jobs:
 
             - name: Commit and Push Fixes
               if: ${{ inputs.fix_errors }}
-              uses: stefanzweifel/git-auto-commit-action@v5
+              uses: stefanzweifel/git-auto-commit-action@v7
               with: 
                 commit_message: "style: auto-fix linting errors"
                 branch: ${{ github.head_ref || github.ref_name }}
