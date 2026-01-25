@@ -50,3 +50,20 @@
 - Updated LICENSE to 2026
 - Updated Github prompts
 - Updated experience to reflect my GPA for the Fall 2025 semester
+
+### 01/21/26
+- Moving all favicons/images into their own folders
+- Updating favicon/image references in other files to reflect
+
+### 01/22/26
+- More image improvements
+- Implementing projects page
+- Updating project links
+- Strikethrough project page improvement item
+
+### 01/25/26
+- Getting rid of .vscode and its settings.json
+- Getting rid of old nextjs.yml
+- Updating deploy.yml
+- Implementing lint.yml to run linting before publishing
+- Implementing dependabot.yml to prevent security issues
