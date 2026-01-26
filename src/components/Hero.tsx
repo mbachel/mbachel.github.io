@@ -30,18 +30,19 @@ export default function Hero() {
                     <h3 className="text-lg pb-2">
                         Charlotte, NC
                     </h3>
-                    <h2 className="text-xl pb-6">
-                        Early Entry MS Information Technology
-                        <br />
-                        BA Computer Science, IT Concentration
+                    <h2 className="text-2xl pb-2 font-semibold">
+                        Aspiring DevOps Engineer & Backend Developer
                     </h2>
+                    <p className="text-lg pb-6 text-gray-300">
+                        MS Information Technology | BA Computer Science
+                    </p>
                     <div className="pb-6 pointer-events-auto inline-block">
                         <Link 
                             href="/contact" 
                             title="Contact Me">
                             <FaEnvelope
                                 size={32}
-                                className="inline-block mx-2"
+                                className="inline-block mx-2 hover:text-blue-400 transition-colors"
                             />
                         </Link>
                         <Link 
@@ -51,7 +52,7 @@ export default function Hero() {
                             target="_blank">
                             <FaLinkedin
                                 size={32}
-                                className="inline-block mx-2"
+                                className="inline-block mx-2 hover:text-blue-400 transition-colors"
                             />
                         </Link>
                         <Link 
@@ -61,13 +62,14 @@ export default function Hero() {
                             target="_blank">
                             <FaGithub
                                 size={32}
-                                className="inline-block mx-2"
+                                className="inline-block mx-2 hover:text-blue-400 transition-colors"
                             />
                         </Link>
                     </div>
-                    <p className="text-lg pb-20 mx-16">
-                        Experience in Python, Git, SQL, and web development. 
-                        Knowledge in backend systems, databases, and full-stack applications using React, Angular, and FastAPI.
+                    <p className="text-lg pb-20 mx-16 leading-relaxed">
+                        Experience in Python, TypeScript, and Cloud Infrastructure. 
+                        Proficient in building scalable full-stack applications with React, FastAPI, and MongoDB, 
+                        and automating deployments using Docker, Terraform, and AWS.
                     </p>
                 </div>
             </div>
