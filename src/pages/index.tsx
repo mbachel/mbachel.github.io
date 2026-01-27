@@ -102,9 +102,9 @@ export default function HomePage() {
                         <li className="pt-2">Incorporate images throughout the website to improve visual appeal.</li>
                         <li className="pt-2">Add animations and interactive elements to enhance engagement.</li>
                         <li className="pt-2">Improve SEO, performance, and accessibility for better usability.</li>
-                        <li className="pt-2 line-through">Finish the projects page, with filtering capabilities.</li>
                         <li className="pt-2">Implement specific project demos to showcase functionality.</li>
                         <li className="pt-2">Optimize for all devices to ensure a seamless experience.</li>
+                        <li className="pt-2 line-through">Finish the projects page, with filtering capabilities.</li>
                     </ul>
                 </div>
             </section>
