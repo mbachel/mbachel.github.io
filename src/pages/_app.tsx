@@ -4,7 +4,8 @@ import Head from 'next/head';
 import { usePathname } from 'next/navigation';
 import { AnimatePresence, motion } from 'framer-motion';
 import "../app/globals.css";
-import Navbar from '@/components/Navbar';
+import NavbarDesktop from '@/components/NavbarDesktop';
+import NavbarMobile from '@/components/NavbarMobile';
 import Hero from '@/components/Hero';
 import MiniHero from '@/components/MiniHero';
 import Footer from '@/components/Footer';
@@ -19,7 +20,12 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
-      <Navbar />
+      <div className="hidden md:block">
+        <NavbarDesktop />
+      </div>
+      <div className="block md:hidden">
+        <NavbarMobile />
+      </div>
       <AnimatePresence mode="wait" initial={false}>
           <motion.div
             key={pathname}
