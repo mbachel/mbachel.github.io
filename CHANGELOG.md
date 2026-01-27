@@ -81,3 +81,5 @@
 - Refactor footer into FooterDesktop and FooterMobile, improving mobile UX
 - Moving finished task to bottom of list on dashboard
 - Refactor _app to reflect footer changes
+- Refactor index to improve mobile UX
+- Improve text color on light mode
