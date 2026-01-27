@@ -29,7 +29,7 @@ const projects = [
         link: "https://m62.bachelder.me",
         class: "ITIS 5166 - Backend App. Dev.",
         techs: ["React Router", "NGINX", "FastAPI", "MongoDB", "Docker Compose"],
-        description: "A full-stack GenAI web app. React Router/NGINX frontend, FastAPI/Uvicorn backend, and MongoDB. Fully containerized with Docker Compose.",
+        description: "A full-stack GenAI web app using React, FastAPI, and MongoDB. Fully containerized with Docker Compose and deployed via automated CI/CD pipelines.",
     },
     {
         name: "J.A. Routh IT Portfolio",
