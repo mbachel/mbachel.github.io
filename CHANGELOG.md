@@ -83,3 +83,5 @@
 - Refactor _app to reflect footer changes
 - Refactor index to improve mobile UX
 - Improve text color on light mode
+- Refactor home page to improve mobile UX
+- Update resume
