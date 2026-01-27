@@ -8,7 +8,8 @@ import NavbarDesktop from '@/components/NavbarDesktop';
 import NavbarMobile from '@/components/NavbarMobile';
 import Hero from '@/components/Hero';
 import MiniHero from '@/components/MiniHero';
-import Footer from '@/components/Footer';
+import FooterDesktop from '@/components/FooterDesktop';
+import FooterMobile from '@/components/FooterMobile';
 import Providers from '@/components/Providers';
 
 export default function MyApp({ Component, pageProps }: AppProps) {
@@ -45,7 +46,12 @@ export default function MyApp({ Component, pageProps }: AppProps) {
             </main>
             </motion.div>
         </AnimatePresence>
-      <Footer />
+      <div className="hidden md:block">
+        <FooterDesktop />
+      </div>
+      <div className="block md:hidden">
+        <FooterMobile />
+      </div>
     </Providers>
   );
 }
