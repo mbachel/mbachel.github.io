@@ -73,3 +73,11 @@
 - Updating hero content, refactor code
 - Updating M62 project description
 - Refactor Navbar into NavbarDesktop and NavbarMobile, improving mobile UX
+- Refactor _app to reflect navbar changes
+
+### 01/27/26
+- Fixing hero background display
+- Fixing hero mobile menu being different sizes on different pages
+- Refactor footer into FooterDesktop and FooterMobile, improving mobile UX
+- Moving finished task to bottom of list on dashboard
+- Refactor _app to reflect footer changes
