@@ -67,3 +67,9 @@
 - Updating deploy.yml
 - Implementing lint.yml to run linting before publishing
 - Implementing dependabot.yml to prevent security issues
+- Merging Dependabot PRs
+
+### 01/26/26
+- Updating hero content, refactor code
+- Updating M62 project description
+- Refactor Navbar into NavbarDesktop and NavbarMobile, improving mobile UX
