@@ -33,10 +33,11 @@ export default function HomePage() {
                     <div className="flex flex-col items-center justify-end md:items-end md:justify-end md:flex-1 md:pt-20 md:pb-10 md:ml-5">
                         <h2 className="text-3xl flex items-center gap-4 pb-2 text-center md:text-end"><FaBatteryQuarter /> Why Matthew?</h2>
                         <p className="text-xl text-center md:text-end max-w-2xl md:max-w-160">
-                            I bring a unique blend of strong technical knowledge in
-                            computer science and practical, real-world experience in leadership.
-                            I intend to use my expertise to help organizations solve complex problems
-                            and deliver high-quality computing solutions.
+                            As a soon-to-be graduate with my Bachelor&apos;s in Computer Science, I
+                            am eager to apply my skills and knowledge in a professional setting.
+                            As an Early Entry Master&apos;s in Information Technology student, I am
+                            committed to continuous learning and growth in tech. Explore my
+                            website to learn more about my skills, experiences, and projects.
                         </p>
                     </div>
                 </div>
@@ -45,10 +46,10 @@ export default function HomePage() {
                         <h2 className="text-3xl flex items-center gap-4 pb-2 text-center md:text-start">What Can Matthew Do? <FaBatteryHalf /></h2>
                         <p className="text-xl pb-2 text-center md:text-start">Here&apos;s a snapshot of my core competencies:</p>
                         <ul className="text-xl text-left md:text-start max-w-2xl md:max-w-180 list-disc pl-6">
-                            <li><span className="font-bold">Web Development</span> - React/Angular, full-stack, interactive features.</li>
-                            <li><span className="font-bold">Software Engineering</span> - CI/CD pipelines, version control, unit testing.</li>
-                            <li><span className="font-bold">System Architecture</span> - Modular design, database integration, scalability.</li>
-                            <li><span className="font-bold">Project Management</span> - Agile/Scrum, client collaboration, documentation.</li>
+                            <li><span className="font-bold">Full-Stack Development</span> - React/Next.js, TypeScript, Node.js.</li>
+                            <li><span className="font-bold">DevOps Engineering</span> - GitHub Actions, Docker, CI/CD pipelines.</li>
+                            <li><span className="font-bold">Software Engineering</span> - Git workflows, unit testing, version control.</li>
+                            <li><span className="font-bold">Database Integration</span> - MongoDB/SQL, schema design, data modeling.</li>
                         </ul>
                     </div>
                     <Link 
@@ -67,10 +68,10 @@ export default function HomePage() {
                         <h2 className="text-3xl flex items-center gap-4 pb-2 text-center md:text-end"><FaBatteryThreeQuarters /> Who Is Matthew?</h2>
                         <p className="text-xl text-center md:text-end max-w-2xl md:max-w-160">
                             I&apos;m in my Senior year at the University of North Carolina at Charlotte,
-                            studying a computer science degree with a concentration in Information Technology.
-                            I was also accepted into the Early Entry program at UNCC for a Master&apos;s 
-                            in Information Technology. In my free time, I enjoy fishing, traveling, and 
-                            gaming with my friends. See more about me below!
+                            studying a Computer Scince Bachelor&apos;s degree with a concentration in
+                            Information Technology. I was also accepted into the Early Entry
+                            program at UNCC for a Master&apos;s in Information Technology. In my free
+                            time, I enjoy fishing, traveling, and gaming with my friends.
                         </p>
                     </div>
                 </div>
@@ -91,20 +92,24 @@ export default function HomePage() {
                     </Link>
                 </div>
             </section>
-            <section id="improvements" className="text-2xl pt-20 pb-30">
-                <h2 className="flex items-center justify-center text-4xl font-bold pb-3"><HiWrenchScrewdriver />&nbsp;Plans for Improvement&nbsp;<HiWrenchScrewdriver /></h2>
-                <div className="flex items-center justify-center flex-col max-w-4xl mx-auto">
-                    <p className="">
+            <section id="improvements" className="pt-16 pb-24 px-6 md:px-20">
+                <h2 className="flex items-center justify-center gap-2 text-center text-2xl font-bold md:text-4xl">
+                    <HiWrenchScrewdriver />
+                    <span>Plans for Improvement</span>
+                    <HiWrenchScrewdriver />
+                </h2>
+                <div className="mx-auto mt-6 flex max-w-4xl flex-col gap-4 text-base md:text-2xl">
+                    <p className="text-center md:text-left">
                         Just like myself, my website is constantly changing and improving.
                         Here are my current plans for improvement and expansion (in no particular order):
                     </p>
-                    <ul className="list-disc max-w-3xl">
-                        <li className="pt-2">Incorporate images throughout the website to improve visual appeal.</li>
-                        <li className="pt-2">Add animations and interactive elements to enhance engagement.</li>
-                        <li className="pt-2">Improve SEO, performance, and accessibility for better usability.</li>
-                        <li className="pt-2">Implement specific project demos to showcase functionality.</li>
-                        <li className="pt-2">Optimize for all devices to ensure a seamless experience.</li>
-                        <li className="pt-2 line-through">Finish the projects page, with filtering capabilities.</li>
+                    <ul className="list-disc space-y-2 pl-6 text-left md:text-left">
+                        <li>Incorporate images throughout the website to improve visual appeal.</li>
+                        <li>Add animations and interactive elements to enhance engagement.</li>
+                        <li>Improve SEO, performance, and accessibility for better usability.</li>
+                        <li>Implement specific project demos to showcase functionality.</li>
+                        <li>Optimize for all devices to ensure a seamless experience.</li>
+                        <li className="line-through">Finish the projects page, with filtering capabilities.</li>
                     </ul>
                 </div>
             </section>
