@@ -90,7 +90,7 @@ export default function Navbar() {
                 </div>
             </div>
             <div
-                className={`fixed inset-0 z-40 flex justify-end transition-opacity duration-200 ${
+                className={`fixed inset-0 z-40 flex w-screen justify-end transition-opacity duration-200 ${
                     menuOpen ? "opacity-100" : "opacity-0 pointer-events-none"
                 }`}
                 aria-hidden={!menuOpen}
@@ -102,13 +102,9 @@ export default function Navbar() {
                     onClick={() => setMenuOpen(false)}
                 />
                 <div
-                    className={`relative h-full w-lg shadow-2xl transition-transform duration-200 ease-out ${
+                    className={`h-full w-60 shadow-2xl transition-transform duration-200 ease-out bg-(--primary-accent) text-(--text-color) ${
                         menuOpen ? "translate-x-0" : "translate-x-full"
                     }`}
-                    style={{
-                        backgroundColor: "var(--primary-accent)",
-                        color: "var(--text-color)",
-                    }}
                 >
                     <div className="flex items-center justify-between px-6 py-5">
                         <div className="flex items-center gap-2">
@@ -130,20 +126,10 @@ export default function Navbar() {
                                 />
                             )}
                         </div>
-                        <div className="flex items-center gap-2">
-                            <button
-                                type="button"
-                                aria-label="Close navigation menu"
-                                className="inline-flex items-center justify-center h-10 w-10 rounded-md border border-black/20"
-                                onClick={() => setMenuOpen(false)}
-                            >
-                                <FiX className="h-5 w-5" aria-hidden="true" />
-                            </button>
-                        </div>
                     </div>
                     <nav
                         id="mobile-nav"
-                        className="px-6 pt-4"
+                        className="pt-4"
                         aria-label="Mobile navigation"
                     >
                         <ul className="flex flex-col gap-6 text-left">
@@ -151,7 +137,9 @@ export default function Navbar() {
                                 <li key={href}>
                                     <Link
                                         href={href}
-                                        className="text-xl font-medium tracking-tight transition-opacity duration-150 hover:opacity-80"
+                                        className={`text-xl font-medium tracking-tight transition-opacity duration-150 ${pathname === href ? "py-2 pl-4 pr-60" : "pl-4"}`}
+                                        id={pathname === href ? "active" : undefined}
+                                        aria-current={pathname === href ? "page" : undefined}
                                         onClick={() => setMenuOpen(false)}
                                     >
                                         {label}
