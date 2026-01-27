@@ -33,8 +33,10 @@ const socialLinks = [
 
 export default function Hero() {
     return (
-        <header className="relative min-h-[calc(100vh-4rem)] overflow-hidden">
-            <BackgroundRippleEffect rows={13} cols={40} />
+        <header className="relative min-h-dvh overflow-hidden">
+            <div className="flex items-center justify-center">
+                <BackgroundRippleEffect rows={16} cols={32} />
+            </div>
             <div className="relative flex font-inter justify-center items-center text-center pt-14 max-w-lg mx-auto pointer-events-none">
                 <div className="z-10">
                     <div className="pb-4">
