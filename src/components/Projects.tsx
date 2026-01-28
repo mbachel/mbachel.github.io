@@ -77,7 +77,7 @@ const projects = [
         image: "images/restaurant.png",
         github: "https://github.com/Magnetize8953/itsc-3155-project",
         class: "ITSC 3155 - Software Engineering",
-        techs: ["FastAPI", "SQLAlchemy", "mySQL", "GitHub"],
+        techs: ["FastAPI", "SQLAlchemy", "MySQL", "GitHub"],
         description: "A RESTful API for restaurant data management using FastAPI and SQLAlchemy. Supports full CRUD operations for menus and resources.",
     },
 ];
@@ -183,12 +183,12 @@ export default function Projects() {
         <div className="container mx-auto px-4 py-8" id="projects">
             <div className="flex flex-col items-center gap-4 mb-8">
                 {/* Filters */}
-                <div className="flex items-center h-10 text-lg border-2 rounded-full overflow-hidden shadow-md">
+                <div className="grid w-full grid-cols-2 gap-2 text-lg md:flex md:h-10 md:w-auto md:gap-0 rounded-full md:border-2 md:shadow-md">
                     {filterButtons.map((button) => (
                         <button
                             key={button.filter}
                             onClick={handleFilterKeyChange(button.filter)}
-                            className={`px-5 h-full hover:bg-(--secondary-accent) transition hover:cursor-pointer border-r last:border-r-0 ${
+                            className={`w-full rounded-lg border px-5 py-2 text-center hover:bg-(--secondary-accent) transition hover:cursor-pointer md:h-full md:w-auto md:rounded-none md:border-0 md:border-r md:first:rounded-l-full md:last:rounded-r-full md:last:border-r-0 md:px-6 md:py-0 ${
                                 (filterKey === '*' && button.filter === '*') ||
                                 `.${filterKey}` === button.filter
                                     ? 'font-bold bg-(--tertiary-accent)'
