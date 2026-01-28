@@ -85,3 +85,7 @@
 - Improve text color on light mode
 - Refactor home page to improve mobile UX
 - Update resume
+
+### 01/28/26
+- Adding image for J.A. Routh project
+- Refactor projects page filter buttons, improving mobile UX
