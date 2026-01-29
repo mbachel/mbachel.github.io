@@ -113,6 +113,7 @@ export default function About() {
                         something about the scale and ambition of space exploration that never gets old.
                     </p>
                 </div>
+                <br />
             </section>
         </>
     );
