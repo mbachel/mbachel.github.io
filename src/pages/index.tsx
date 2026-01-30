@@ -108,7 +108,7 @@ export default function HomePage() {
                         <li>Add animations and interactive elements to enhance engagement.</li>
                         <li>Improve SEO, performance, and accessibility for better usability.</li>
                         <li>Implement specific project demos to showcase functionality.</li>
-                        <li>Optimize for all devices to ensure a seamless experience.</li>
+                        <li className="line-through">Optimize for all devices to ensure a seamless experience.</li>
                         <li className="line-through">Finish the projects page, with filtering capabilities.</li>
                     </ul>
                 </div>
