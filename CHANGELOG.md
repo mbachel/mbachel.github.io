@@ -89,3 +89,9 @@
 ### 01/28/26
 - Adding image for J.A. Routh project
 - Refactor projects page filter buttons, improving mobile UX
+
+### 01/30/26
+- Update ContactForm component and contact page to improve mobile UX
+- Add break line on about page to separate footer
+- Refactor experience page and Skills component, improving mobile UX (all pages/components now work well on mobile!)
+- Strikethrough mobile UX improvement item
