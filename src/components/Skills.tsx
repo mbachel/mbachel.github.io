@@ -92,14 +92,14 @@ export default function Skills() {
     };
 
     return (
-        <div className="relative mx-auto h-24rem overflow-y-auto overflow-x-hidden">
-            <div className="sticky top-0 z-10 flex justify-center py-6 bg-(--primary-background)">
-                <div className="flex items-center h-10 text-lg border-2 rounded-full overflow-hidden shadow-md">
+        <div className="relative mx-auto flex h-124 md:h-124 flex-col">
+            <div className="flex justify-center py-6 bg-(--primary-background)">
+                <div className="grid w-full grid-cols-2 gap-2 text-base md:flex md:h-9 md:w-auto md:gap-0 rounded-full md:border-2 md:shadow-md">
                     {filterButtons.map((button) => (
                         <button
                             key={button.filter}
                             onClick={handleFilterKeyChange(button.filter)}
-                            className={`px-5 h-full hover:bg-(--secondary-accent) transition hover:cursor-pointer border-r last:border-r-0 ${
+                            className={`w-full rounded-lg border px-4 py-1.5 text-center hover:bg-(--secondary-accent) transition hover:cursor-pointer md:h-full md:w-auto md:rounded-none md:border-0 md:border-r md:first:rounded-l-full md:last:rounded-r-full md:last:border-r-0 md:px-5 md:py-0 ${
                                 (filterKey === '*' && button.filter === '*') ||
                                 `.${filterKey}` === button.filter
                                     ? 'font-bold bg-(--tertiary-accent)'
@@ -112,19 +112,21 @@ export default function Skills() {
                 </div>
             </div>
 
-            <div ref={gridRef} className="grid w-full mx-auto">
-                {/* Grid Sizer element for column width */}
-                <div className="grid-sizer w-1/5"></div>
-                {skills.map((skill) => (
-                    <div
-                        key={skill.name}
-                        className={`grid-item w-1/5 p-1 ${skill.category}`}
-                    >
-                        <div className="p-2 text-center border rounded-md shadow-sm h-full flex items-center justify-center bg-(--secondary-background)">
-                            <p className="text-base">{skill.name}</p>
+            <div className="flex-1 overflow-y-auto overflow-x-hidden">
+                <div ref={gridRef} className="grid w-full mx-auto">
+                    {/* Grid Sizer element for column width */}
+                    <div className="grid-sizer w-1/2 sm:w-1/3 md:w-1/5"></div>
+                    {skills.map((skill) => (
+                        <div
+                            key={skill.name}
+                            className={`grid-item w-1/2 sm:w-1/3 md:w-1/5 p-2 ${skill.category}`}
+                        >
+                            <div className="p-3 text-center border rounded-md shadow-sm h-full flex items-center justify-center bg-(--secondary-background)">
+                                <p className="text-sm sm:text-base leading-tight wrap-break-word">{skill.name}</p>
+                            </div>
                         </div>
-                    </div>
-                ))}
+                    ))}
+                </div>
             </div>
         </div>
     );
