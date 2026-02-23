@@ -33,9 +33,9 @@ const socialLinks = [
 
 export default function Hero() {
     return (
-        <header className="relative min-h-dvh overflow-hidden">
+        <header className="relative max-h-180 overflow-hidden">
             <div className="flex items-center justify-center">
-                <BackgroundRippleEffect rows={16} cols={32} />
+                <BackgroundRippleEffect rows={24} cols={48} />
             </div>
             <div className="relative flex font-inter justify-center items-center text-center pt-14 max-w-lg mx-auto pointer-events-none">
                 <div className="z-10">
@@ -70,7 +70,7 @@ export default function Hero() {
                             </Link>
                         ))}
                     </div>
-                    <p className="text-lg">
+                    <p className="text-lg pb-6">
                         Experience in Docker, CI/CD, and full-stack development.
                         Passionate about leadership, learning, and collaboration.
                     </p>
