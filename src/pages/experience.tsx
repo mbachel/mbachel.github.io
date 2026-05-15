@@ -105,7 +105,7 @@ export default function experience() {
                             <ul className="list-disc pl-5 text-sm md:text-base">
                                 <li>Courses: Physical Computing (Graduate), Network-Based Application Development (Graduate), Info
                                     Security and Privacy (Graduate), Elements of Statistics II</li>
-                                <li>Skills: TypeScript, React, Angular, R, MongoDB, Docker, Autodesk Fusion, 3D Printing, Arduino, CLI, 
+                                <li>Skills: TypeScript, React, Angular, R, MongoDB, Autodesk Fusion, 3D Printing, Arduino, CLI 
                                     Application Architecture</li>
                                 <li>
                                     Projects:&nbsp;
@@ -143,8 +143,8 @@ export default function experience() {
                             </p>
                             <ul className="list-disc pl-5 text-sm md:text-base">
                                 <li>Courses: IT Project Management (Graduate), Penetration Testing and Secure Programming (Graduate), Software Development Projects</li>
-                                <li>Skills: Docker, Docker Compose</li>
-                                {/* <li>
+                                <li>Skills: Docker, AWS, GitHub Actions, CI/CD, Cloudflare, </li>
+                                <li>
                                     Projects:&nbsp;
                                         <Link 
                                             href="/projects#"
@@ -154,8 +154,8 @@ export default function experience() {
                                             className="underline"
                                         >
                                         </Link>
-                                </li> */}
-                                <li>Achievements: Bachelor of Arts in Computer Science</li>
+                                </li>
+                                <li>Achievements: Bachelor of Arts in Computer Science, Chancellor&apos;s list (&gt;3.8+ GPA)</li>
                             </ul>
                         </div>
                         <div className="absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2 md:left-auto md:right-0 md:top-1/2 md:-translate-y-1/2 md:translate-x-[47%] z-10">
@@ -248,16 +248,15 @@ export default function experience() {
 
                     <div className="relative flex w-full max-w-3xl md:w-240 min-h-37.5">
                         <div className="flex-1 px-6 pt-10 pb-6 md:pl-36 md:pr-16 md:pt-8 md:pb-8 border-2 md:border-0 md:border-r-4 rounded-xl md:rounded-none [border-image:linear-gradient(to_right,#758ecd,#A02C3D)_1]">
-                            <h2 className="text-xl md:text-2xl">August 2025 - Present</h2>
+                            <h2 className="text-xl md:text-2xl">August 2025 - May 2026</h2>
                             <p className="text-sm md:text-md">
-                                Promoted to Lab Instructor (Lead Instructional Assistant), instructing a lab section of 60+ students and
-                                mentoring 3 Instructional Assistants.
+                                Promoted to Lab Instructor (Lead Instructional Assistant), instructing 4 lab sections serving 180+ students and
+                                mentoring 8 Instructional Assistants.
                             </p>
                             <ul className="list-disc pl-5 text-sm md:text-base">
-                                <li>Instructor for a course with 600 students teaching computing fundamentals and Python basics.</li>
-                                <li>Administer two lab sections with a combined 120+ students with an average student grade of ~95%.</li>
-                                <li>Lead weekly meetings to mentor, check in with, and get feedback from Instructional Assistants.</li>
-                                <li>Moderate weekly grades and office hours to support students in a one-on-one meeting.</li>
+                                <li>Instructed 180+ students in Python fundamentals, translating lecture concepts into hands-on exercises each week.</li>
+                                <li>Collaborated in weekly TA syncs to coordinate grading responsibilities and refine lab instruction approaches.</li>
+                                <li>Guided students through debugging Python errors in real time across lab sessions and office hours.</li>
                             </ul>
                         </div>
                         <div className="absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2 md:left-auto md:right-0 md:top-1/2 md:-translate-y-1/2 md:translate-x-[47%] z-10">

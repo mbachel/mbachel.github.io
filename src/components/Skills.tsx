@@ -3,61 +3,55 @@ import React, { useEffect, useRef, useState } from 'react';
 import Isotope from 'isotope-layout';
 
 const skills = [
-    //Web Development
-    { name: 'Angular', category: 'web' },
-    { name: 'CSS', category: 'web' },
-    { name: 'HTML', category: 'web' },
-    { name: 'Interactive Design', category: 'web' },
-    { name: 'Isotope', category: 'web' },
-    { name: 'JavaScript', category: 'web' },
-    { name: 'Next.js', category: 'web' },
-    { name: 'React', category: 'web' },
-    { name: 'Tailwind CSS', category: 'web' },
-    { name: 'TypeScript', category: 'web' },
+    // Cloud
+    { name: 'Lambda', category: 'cloud' },
+    { name: 'S3', category: 'cloud' },
+    { name: 'CloudFront', category: 'cloud' },
+    { name: 'API Gateway', category: 'cloud' },
+    { name: 'DynamoDB', category: 'cloud' },
+    { name: 'SAM', category: 'cloud' },
+    { name: 'IAM', category: 'cloud' },
+    { name: 'ACM', category: 'cloud' },
+    { name: 'Route 53', category: 'cloud' },
+    { name: 'AWS', category: 'cloud' },
 
-    //Software Engineering
-    { name: 'CI/CD', category: 'software' },
-    { name: 'Data Structures', category: 'software' },
-    { name: 'Git & GitHub', category: 'software' },
-    { name: 'Java', category: 'software' },
-    { name: 'Object Programming', category: 'software' },
-    { name: 'Python', category: 'software' },
-    { name: 'SDLC', category: 'software' },
-    { name: 'SQL', category: 'software' },
-    { name: 'Unit Testing', category: 'software' },
-    { name: 'Version Control', category: 'software' },
+    // DevOps
+    { name: 'Docker', category: 'devops' },
+    { name: 'Docker Compose', category: 'devops' },
+    { name: 'GitHub Actions', category: 'devops' },
+    { name: 'CI/CD', category: 'devops' },
+    { name: 'Git & GitHub', category: 'devops' },
+    { name: 'NGINX', category: 'devops' },
+    { name: 'Linux', category: 'devops' },
+    { name: 'Bash', category: 'devops' },
 
-    //System Architecture
-    { name: 'API Design', category: 'system' },
-    { name: 'Database Design', category: 'system' },
-    { name: 'Database Integration', category: 'system' },
-    { name: 'Modular Design', category: 'system' },
-    { name: 'Network Design', category: 'system' },
-    { name: 'Scalability', category: 'system' },
-    { name: 'System Design', category: 'system' },
+    // Full-Stack
+    { name: 'React', category: 'fullstack' },
+    { name: 'Next.js', category: 'fullstack' },
+    { name: 'TypeScript', category: 'fullstack' },
+    { name: 'JavaScript', category: 'fullstack' },
+    { name: 'FastAPI', category: 'fullstack' },
+    { name: 'Node.js', category: 'fullstack' },
+    { name: 'Python', category: 'fullstack' },
+    { name: 'Tailwind CSS', category: 'fullstack' },
+    { name: 'HTML & CSS', category: 'fullstack' },
+    { name: 'React Router', category: 'fullstack' },
 
-    //Project Management
-    { name: 'Adaptability', category: 'project' },
-    { name: 'Agile', category: 'project' },
-    { name: 'Collaboration', category: 'project' },
-    { name: 'Communication', category: 'project' },
-    { name: 'Critical Thinking', category: 'project' },
-    { name: 'Docker', category: 'project' },
-    { name: 'Documentation', category: 'project' },
-    { name: 'Leadership', category: 'project' },
-    { name: 'Problem-Solving', category: 'project' },
-    { name: 'Requirements Analysis', category: 'project' },
-    { name: 'Scrum', category: 'project' },
-    { name: 'Team Collaboration', category: 'project' },
-    { name: 'Time Management', category: 'project' },
+    // Database
+    { name: 'MongoDB', category: 'database' },
+    { name: 'MySQL', category: 'database' },
+    { name: 'SQL', category: 'database' },
+    { name: 'SQLAlchemy', category: 'database' },
+    { name: 'Schema Design', category: 'database' },
+    { name: 'Data Modeling', category: 'database' },
 ];
 
 const filterButtons = [
     { name: 'Show All', filter: '*' },
-    { name: 'System Architecture', filter: '.system' },
-    { name: 'Web Development', filter: '.web' },
-    { name: 'Project Management', filter: '.project' },
-    { name: 'Software Engineering', filter: '.software' },
+    { name: 'Cloud', filter: '.cloud' },
+    { name: 'DevOps', filter: '.devops' },
+    { name: 'Full-Stack', filter: '.fullstack' },
+    { name: 'Database', filter: '.database' },
 ];
 
 export default function Skills() {
