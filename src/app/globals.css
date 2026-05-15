@@ -8,6 +8,7 @@
   --primary-background: #D6D6D6;
   --secondary-background: #E5E5E5;
   --tertiary-background: #DCDCDC;
+  --quaternary-background: #cfcece;
   --text-color: #50514f;
   --primary-accent: #758ecd;
   --secondary-accent: #5A78C4;
@@ -47,9 +48,10 @@
 }
 
 .dark {
-  --primary-background: #2E3532;
-  --secondary-background: #3C4440;
+  --primary-background: #313033;
+  --secondary-background: #333536;
   --tertiary-background: #464C49;
+  --quaternary-background: #2e2d2f;
   --text-color: #E5E5E5;
   --primary-accent: #A02C3D;
   --secondary-accent: #802331;
@@ -177,7 +179,8 @@ input, textarea {
 @theme inline {
   --animate-cell-ripple: cell-ripple var(--duration, 200ms) ease-out none 1
   var(--delay, 0ms);
- 
+  --animate-coin-flip: coinFlip 0.6s ease-in-out;
+
   @keyframes cell-ripple {
     0% {
       opacity: 0.4;
@@ -188,6 +191,11 @@ input, textarea {
     100% {
       opacity: 0.4;
     }
+  }
+
+  @keyframes coinFlip {
+    0%   { transform: rotateY(0deg); }
+    100% { transform: rotateY(360deg); }
   }
 }
 
