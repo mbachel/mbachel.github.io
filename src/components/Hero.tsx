@@ -1,7 +1,11 @@
+"use client";
+
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { MdMail } from "react-icons/md";
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect, useRef, useState } from "react";
+import { useTheme } from "next-themes";
 import { BackgroundRippleEffect } from "./ui/background-ripple-effect";
 
 const socialLinks = [
@@ -32,6 +36,20 @@ const socialLinks = [
 ];
 
 export default function Hero() {
+    const { resolvedTheme } = useTheme();
+    const [isFlipping, setIsFlipping] = useState(false);
+    const isFirstRender = useRef(true);
+
+    useEffect(() => {
+        if (isFirstRender.current) {
+            isFirstRender.current = false;
+            return;
+        }
+        setIsFlipping(true);
+        const timer = setTimeout(() => setIsFlipping(false), 600);
+        return () => clearTimeout(timer);
+    }, [resolvedTheme]);
+
     return (
         <header className="relative max-h-180 overflow-hidden">
             <div className="flex items-center justify-center">
@@ -39,13 +57,13 @@ export default function Hero() {
             </div>
             <div className="relative flex font-inter justify-center items-center text-center pt-14 max-w-lg mx-auto pointer-events-none">
                 <div className="z-10">
-                    <div className="pb-4">
+                    <div className="pb-4" style={{ perspective: "1000px" }}>
                         <Image
                             src="images/me.png"
                             alt="Profile Picture"
                             width={148}
                             height={148}
-                            className="w-60 h-60 rounded-full object-cover object-center items-center mx-auto shadow-xl"
+                            className={`w-60 h-60 rounded-full object-cover object-center items-center mx-auto shadow-xl${isFlipping ? " animate-coin-flip" : ""}`}
                             id="profile-picture"
                             priority
                         />
@@ -71,8 +89,8 @@ export default function Hero() {
                         ))}
                     </div>
                     <p className="text-lg pb-6">
-                        Experience in Docker, CI/CD, and full-stack development.
-                        Passionate about leadership, learning, and collaboration.
+                        Hands-on experience with cloud technologies, DevOps 
+                        practices, and full-stack development. Passionate about leadership, learning, and collaboration.
                     </p>
                 </div>
             </div>
