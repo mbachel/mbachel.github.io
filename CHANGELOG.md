@@ -95,3 +95,10 @@
 - Add break line on about page to separate footer
 - Refactor experience page and Skills component, improving mobile UX (all pages/components now work well on mobile!)
 - Strikethrough mobile UX improvement item
+
+### 05/15/26
+- Update tsconfig to remove baseUrl and update relative paths
+- Update index, projects, and experience pages for what I did through my final semester
+- Update projects component for new projects
+- Refactor skills component to include a different set of skills for what I am focused on
+- Add a coinflip animation to the hero image circle when theme is changed
